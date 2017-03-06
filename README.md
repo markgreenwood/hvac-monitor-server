@@ -1,24 +1,18 @@
-# Program title 
+# HVAC Monitor
 
 ## Description
 
-TODO: Add program description.
+The application displays HVAC usage for a 30-day date range from a specified date at Portland International Airport (PDX).
+HVAC usage is determined as follows: For each hour in the day, if the temperature is above 75 deg F, the A/C is on. Similarly,
+if the temperature is below 62 deg F, the heat is on. The application totals the number of hours each day the A/C and/or the 
+heat are on and displays it on a usage graph. The application also displays a time-series graph of the hourly temperatures
+with the thresholds for A/C and heat indicated on the graph.
 
-## Code Example
+Weather data is obtained from the API at https://darksky.net/dev.
 
-```
-const todo = "Write some code here."
-```
+## See the app in action
 
-## Motivation
-
-This was written as a lab assignment for Code Fellows 401 class.
-
-## API Reference
-
-### Put in descriptions...
-
-### ...of API calls if applicable
+Deployed on https://hvac-monitor.herokuapp.com.
 
 ## Tests
 
