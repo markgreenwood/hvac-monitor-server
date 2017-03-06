@@ -1,5 +1,5 @@
 {
-  "name": "ce-hvac-sandbox",
+  "name": "hvac-monitor",
   "version": "0.1.0",
   "description": "Program description",
   "main": "server.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markgreenwood/my-proj.git"
+    "url": "git+https://github.com/markgreenwood/hvac-monitor-server.git"
   },
   "author": "@markgreenwood",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/markgreenwood/my-proj/issues"
+    "url": "https://github.com/markgreenwood/hvac-monitor-server/issues"
   },
-  "homepage": "https://github.com/markgreenwood/my-proj#readme",
+  "homepage": "https://github.com/markgreenwood/hvac-monitor-server/#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.8.1",
@@ -34,5 +34,6 @@
     "moment": "^2.17.1",
     "request": "^2.79.0",
     "superagent": "^3.5.0"
-  }
+  },
+  "engines": { "node": "~6.1.0" }
 }
