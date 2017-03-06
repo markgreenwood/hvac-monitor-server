@@ -4,7 +4,7 @@
   "description": "Program description",
   "main": "server.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint '**/*.js'",
     "pretest": "npm run lint",
     "test": "mocha",
     "build": "npm install",
