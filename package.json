@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "exit 0",
-    "build": "npm install",
+    "build": "npm i && cd client && npm i && npm run build && cd .. && rm -r public && cp -r client/build public",
     "dev": "npm install --save-dev",
     "watch": "npm run test -- -w",
     "start": "node server.js"
