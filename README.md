@@ -10,10 +10,12 @@ with the thresholds for A/C and heat indicated on the graph.
 
 Weather data is obtained from the API at https://darksky.net/dev.
 
-## See the app in action
+## See The App In Action
 
 The working app is deployed at https://hvac-monitor.herokuapp.com. Just choose a start date to see a 30-day window of
-temperature and usage data displayed.
+hourly temperature and daily usage data displayed.
+
+Note that hovering over the graph displays a cursor with the values of the individual data points.
 
 ## Tests
 
