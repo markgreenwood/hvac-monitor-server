@@ -12,7 +12,8 @@ Weather data is obtained from the API at https://darksky.net/dev.
 
 ## See the app in action
 
-The working app is deployed at https://hvac-monitor.herokuapp.com.
+The working app is deployed at https://hvac-monitor.herokuapp.com. Just choose a start date to see a 30-day window of
+temperature and usage data displayed.
 
 ## Tests
 
