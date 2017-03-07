@@ -12,7 +12,7 @@ Weather data is obtained from the API at https://darksky.net/dev.
 
 ## See the app in action
 
-Deployed on https://hvac-monitor.herokuapp.com.
+The working app is deployed at https://hvac-monitor.herokuapp.com.
 
 ## Tests
 

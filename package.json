@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "exit 0",
+    "test": "mocha",
     "build": "npm i && cd client && npm i && npm run build && cd .. && rm -r public && cp -r client/build public",
     "dev": "npm install --save-dev",
     "watch": "npm run test -- -w",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/markgreenwood/hvac-monitor-server/#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
     "eslint": "^3.8.1",
     "mocha": "^3.1.2",
     "morgan": "^1.8.1"
@@ -35,5 +36,7 @@
     "request": "^2.79.0",
     "superagent": "^3.5.0"
   },
-  "engines": { "node": "~6.1.0" }
+  "engines": {
+    "node": "~6.1.0"
+  }
 }
